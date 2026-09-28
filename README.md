@@ -23,6 +23,10 @@
 # การต่อวงจร (Circuit Diagram)
 
 # Software & Libraries
+Libraries มี
+Adafruit SSD1306
+ezButton
+ESP32Servo
 
 # คู่มือและขั้นตอนการใช้งาน (How to Use & Quick Start)
 
