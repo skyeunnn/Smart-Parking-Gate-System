@@ -31,7 +31,7 @@ ESP32Servo
 
 # คู่มือและขั้นตอนการใช้งาน (How to Use & Quick Start)
 
-# โครงสร้างและการออกแบบ
+# โครงสร้างและการออกแบบ🚘
 <img width="1414" height="2000" alt="image" src="https://github.com/user-attachments/assets/95bf450d-9382-442f-abc2-be4b6a711761" />
 
 # หน้าที่ของปุ่มควบคุม (Controls Summary)
