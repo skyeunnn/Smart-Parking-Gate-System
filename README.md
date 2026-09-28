@@ -5,6 +5,7 @@
 - การควบคุมทางเข้า (Barrier Control): ใช้มอเตอร์เซอร์โว (Servo Motor) ในการสั่งเปิด-ปิดไม้กั้นเมื่อมีรถผ่าน
 - การคำนวณและแสดงผลช่องจอด (Occupancy & Display): คำนวณจำนวนรถและพื้นที่ว่างคงเหลือแบบ Real-time พร้อมแสดงผลผ่านหน้าจอ OLED
 # Block Diagram
+<img width="1920" height="1080" alt="Ultrasonic sensor" src="https://github.com/user-attachments/assets/51231a02-3329-4a8e-a5cd-3a84cd33dc2a" />
 
 # ผังงานการทำงาน (Flowchart)
 
