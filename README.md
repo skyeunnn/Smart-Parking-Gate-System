@@ -18,9 +18,20 @@
 - Push-button(เปิดไม้กั้นฉุกเฉิน1ตัว และเคลียร์จำนวนรถ1ตัว)
 - LED(Red,Green)
 # รายการเอกสารทางเทคนิค (Component Datasheets)
-
+| อุปกรณ์ (Component) | เอกสารอ้างอิง (Datasheet) |
+| --- | --- |
+| ESP32 DOIT DevKit V1 | [ESP32 Datasheet](https://drive.google.com/file/d/1Ic243PlvosYpHaeQ5Si0iNkPEw1R4hw9/view) |
+| OLED Display | [SSD1306 Datasheet](https://drive.google.com/file/d/14kyQGCQ9KdR1j_5-WBYeHLpgWmtnzE1P/view) |
+| Servo Motor | [SG90 Datasheet](https://www.friendlywire.com/projects/ne555-servo-safe/SG90-datasheet.pdf) |
+| HC-SR04 Ultrasonic | [HC-SR04 Datasheet](https://drive.google.com/file/d/1ITVnQZJ2ADjACwu-oFpP6KKXNsSg8Tzs/view) |
 # การต่อสาย (Pin Configuration)
-
+| Component | PIN | Note |
+| --- | --- | --- |
+| OLED SDA | GPIO 21 | I2C |
+| OLED SCL | GPIO 22 | I2C |
+| Potentiometer | GPIO 34 | Analog Input |
+| HC-SR04 Trig | GPIO 18 | |
+| HC-SR04 Echo | GPIO 5 | |
 # การต่อวงจร (Circuit Diagram)
 
 # Software & Libraries
