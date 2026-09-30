@@ -32,21 +32,30 @@
 | Potentiometer | GPIO 34 | Analog Input |
 | HC-SR04 Trig | GPIO 18 | |
 | HC-SR04 Echo | GPIO 5 | |
+| Servo Motor | GPIO 23 | Signal |
+| Green LED | GPIO 13 | ต่อผ่านตัวต้านทาน 330Ω |
+| Red LED | GPIO 12 | ต่อผ่านตัวต้านทาน 330Ω |
+| ปุ่มฉุกเฉินเปิดไม้กั้น | GPIO 4 | |
+| ปุ่มเคลียร์รถออกจากลาน | GPIO 14 | |
 # การต่อวงจร (Circuit Diagram)
 
 # Software & Libraries
-Libraries มี
-Adafruit SSD1306
-ezButton
-ESP32Servo
+- `Adafruit SSD1306`
+- `ezButton`
+- `ESP32Servo`
 
 # คู่มือและขั้นตอนการใช้งาน (How to Use & Quick Start)
-
+(การใช้งานใดใด ไบท์ใส่)
+หน้าที่ของปุ่มควบคุม (Controls Summary)
+- ปุ่มที่1 : สำหรับกดเปิดไม้กั้นฉุกเฉินหากไม้กั้นทำงานผิดปกติ
+- ปุ่มที่2 : สำหรับกดเคลียร์รถออกจากลาน(แบบจำลอง) เมื่อมีรถที่ต้องการออกจากลาน
+  
 # โครงสร้างและการออกแบบ🚘
 <img width="1414" height="2000" alt="image" src="https://github.com/user-attachments/assets/95bf450d-9382-442f-abc2-be4b6a711761" />
 
-# หน้าที่ของปุ่มควบคุม (Controls Summary)
+# หน้าจอแสดงผลบนOLED
 
-# หน้าจอและเมนูการตั้งค่า (Menu Navigation)
+# วิดีโอสาธิตการทำงาน (Video Demonstration)
 
 # เอกสารและคู่มือการใช้งาน (Documentation & Manual)
+Swayซองอึนกำลังจัดทำ
