@@ -28,12 +28,24 @@
 # รายการเอกสารทางเทคนิค (Component Datasheets)
 | อุปกรณ์ (Component) | เอกสารอ้างอิง (Datasheet) |
 | -- | -- |
-| ESP32 DOIT DevKit V1 |[ESP32](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf)|
-| OLED Display | |
-| HC-SR04 Ultrasonic | |
-| Servo Motor
+| ESP32 DOIT DevKit V1 |[ESP32 Datasheet](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf)|
+| OLED Display | [SSD1306 Datasheet](https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/791/SSD1306-Datasheet-for-096-OLED-_2800_1_2900_.pdf) |
+| HC-SR04 Ultrasonic | [HC-SR04 Datasheet](https://www.alldatasheet.com/datasheet-pdf/view/1132204/ETC2/HCSR04.html) |
+| Servo Motor | [SG90 Datasheet](https://www.friendlywire.com/projects/ne555-servo-safe/SG90-datasheet.pdf) |
 
 # การต่อสาย (Pin Configuration)
+| อุปกรณ์ (Component) | ขา ESP32 (Pin) | Note |
+| -- | -- | -- |
+| OLED SDA | GPIO 21 | I2C |
+| OLED SCL | GPIO 22 | I2C |
+| Ultrasonic TRIG | GPIO 18 | HC-SR04 |
+| Ultrasonic ECHO | GPIO 5 | HC-SR04 |
+| Green LED | GPIO 12 | Parking Available |
+| Red LED | GPIO 13 | Parking Full |
+| Potentiometer | GPIO 34 | Analog Input |
+| Button 1 | GPIO 4 | Emergency |
+| Button 2 | GPIO 14 | Exit |
+| Servo Motor | GPIO 23 | Barrier Control |
 
 # แผนภาพการต่อวงจร (Circuit Diagram)
 <img width="1081" height="797" alt="Screenshot 2026-10-02 180459" src="https://github.com/user-attachments/assets/8c69defb-ddb3-4130-ab8d-9de17a7cbebe" />
