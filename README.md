@@ -26,6 +26,12 @@
 - Push-button(เปิดไม้กั้นฉุกเฉิน1ตัว และเคลียร์จำนวนรถ1ตัว)
 
 # รายการเอกสารทางเทคนิค (Component Datasheets)
+| อุปกรณ์ (Component) | เอกสารอ้างอิง (Datasheet) |
+| -- | -- |
+| ESP32 DOIT DevKit V1 |[ESP32](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf)|
+| OLED Display | |
+| HC-SR04 Ultrasonic | |
+| Servo Motor
 
 # การต่อสาย (Pin Configuration)
 
