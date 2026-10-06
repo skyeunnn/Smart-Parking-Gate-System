@@ -77,5 +77,5 @@
 <img width="2364" height="1774" alt="image" src="https://github.com/user-attachments/assets/88a7368e-d703-4781-b0a5-76b1baf7db40" />
 
 # วิดีโอสาธิตการทำงาน (Video Demonstration)
-
+https://drive.google.com/file/d/1DpSWVMpt97qAKMgUWJTMub2WuIHpYued/view?usp=drivesdk
 # เอกสาร (Documentation)
