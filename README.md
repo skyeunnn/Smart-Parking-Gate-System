@@ -90,11 +90,14 @@
    ​การยกเลิกโหมดฉุกเฉินเพื่อกลับสู่สภาวะปกติ:
    ​กดปุ่ม BTN1 (ปุ่มฉุกเฉิน) ซ้ำอีก 1 ครั้ง
    ​ไม้กั้นจะปิดลงมาที่ 90 องศา หน้าจอ OLED และไฟ LED จะกลับมาแสดงสถานะลานจอดตามปกติ
-  
+
+# หน้าจอแสดงผล OLED
+  <img width="2048" height="2048" alt="image" src="https://github.com/user-attachments/assets/2f2cdb58-76ac-4e80-a09b-81697ec6f818" />
+
 # ภาพชิ้นงานจริง
 <img width="2364" height="1774" alt="image" src="https://github.com/user-attachments/assets/88a7368e-d703-4781-b0a5-76b1baf7db40" />
 
 # วิดีโอสาธิตการทำงาน (Video Demonstration)
 https://drive.google.com/file/d/1DpSWVMpt97qAKMgUWJTMub2WuIHpYued/view?usp=drivesdk
 # เอกสาร (Documentation)
-https://sway.cloud.microsoft/wZeZ7cTVoWPW3O0D
+- [ คลิกเพื่อดูเอกสาร (Smart Parking Gate System)](https://sway.cloud.microsoft/wZeZ7cTVoWPW3O0D)
